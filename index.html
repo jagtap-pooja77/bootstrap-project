@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>NoBrokers</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="text-body-secondary">
+
+
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm py-2">
+        <div class="d-flex justify-content-between align-items-center w-100 px-3">
+         
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <p id="persentSign"
+                    class="d-flex justify-content-center align-items-center mb-0 text-white bg-danger rounded-circle">
+                    %
+                </p>
+                <span class="fw-bold">NO<span class="sub-span text-secondary fw-semibold">BROKER</span></span>
+            </a>
+
+         
+            <div class="ms-auto d-flex align-items-center">
+                <button class="btn btn-info btn-sm mr-1 me-4">
+                    For Property Owners
+                </button>
+                <a href="#" class="text-decoration-none text-secondary fw-semibold me-3">Sign up</a>
+                <a href="#" class="text-decoration-none text-secondary fw-semibold me-3">Log in</a>
+                <span class="menu-icon fs-7 cursor-pointer fw-semibold">☰ Menu</span>
+            </div>
+        </div>
+    </nav>
+
+   
+    <main class="container main d-flex justify-content-center flex-column align-items-center mt-5">
+       
+        <h2 class="h2">World's Largest NoBrokerage Property Site</h2>
+
+         <section>
+            <div class="userActionNav p-2 pb-0 mt-4">
+                <div class="pl-5 d-flex justify-content-between gap-4 px-4">
+                    <a href="#">Buy</a>
+                    <a href="#">Rent</a>
+                    <a href="#">Commercial</a>
+                </div>
+            </div>
+        </section>
+        <section id="form">
+            <form action="#">
+                <div class="top row">
+                    <select name="city" id="city" class="col-3">
+                        <option value="banglore">Banglore</option>
+                         <option value="banglore">Chennai</option>
+                          <option value="banglore">Hydrabad</option>
+                    </select>
+
+                    <input type="search" id="search" class="col-6"
+                        placeholder="Search upto 3 localities or landmarks" />
+
+                    <div class="submit col-3">
+                       <i class="fas fa-search" aria-hidden="true"></i>
+                        <input type="submit" value="Search" class="" id="submit-btn" />
+                    </div>
+                </div>
+
+
+                <div class="bottom">
+                    <div class="redios">
+                        <input type="radio" name="address" id="fullHouse" />
+                        <label for="fullHouse"> Full House</label>
+
+                        <input type="radio" name="address" id="land" />
+                        <label for="land">Land/Plot</label>
+                    </div>
+                    <select name="bhk" id="bhk">
+                        <option value="">BHK Type</option>
+                        <option value="">1BHK</option>
+                          <option value="">2BHK</option>
+                    </select>
+
+                    <select name="property" id="property">
+                        <option value="">Property Status</option>
+                    </select>
+                    <div>
+                        <input type="checkbox" id="project" />
+                        <label for="project">New Builder Project</label>
+                    </div>
+                </div>
+            </form>
+        </section>
+
+
+        <section id="form">
+            <form action="#">
+                <div class="top row">
+                    <select name="city" id="city" class="col-3">
+                        <option value="banglore">Banglore</option>
+                         <option value="banglore">Chennai</option>
+                          <option value="banglore">Hydrabad</option>
+                    </select>
+
+                    <input type="search" id="search" class="col-6"
+                        placeholder="Search upto 3 localities or landmarks" />
+
+                    <div class="submit col-3">
+                       <i class="fas fa-search" aria-hidden="true"></i>
+                        <input type="submit" value="Search" class="" id="submit-btn" />
+                    </div>
+                </div>
+
+
+                <div class="bottom">
+                    <div class="redios">
+                        <input type="radio" name="address" id="fullHouse" />
+                        <label for="fullHouse"> Rent</label>
+
+                        <input type="radio" name="address" id="land" />
+                        <label for="land">Buy</label>
+                    </div>
+                    
+                    <select name="property" id="property">
+                        <option value="">Property Type</option>
+                    </select>
+                   
+                    
+                </div>
+            </form>
+        </section>
+    </main>
+    <section class="footer">
+        <div class="footer-text">
+            <hr>
+            <p>Are you a Property Owner?</p>
+            <hr>
+        </div>
+        <button class="btn-info">Post Free Property Ad</button>
+    </section>
+
+   
+   
+</body>
+
+</html>
