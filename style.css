@@ -8,14 +8,11 @@
   height: 40px;
 }
 
-.cursor-pointer {
-  cursor: pointer;
-}
 .navbar-brand span{
   font-size: 25px;
 }
 
-#persentSign {
+#sign {
   width: 30px;
   height: 30px;
   margin-right: 5px;
@@ -31,16 +28,42 @@
   padding-right: 15px;
 }
 
+.interiors {
+  background-color: #f8e4be;
+  border-radius: 2px;
+}
+
+
 .main-content {
   border: 1px solid #dcdcdc;
   height: 62px;
   text-decoration: none;
 }
-.main-content a {
-  font-size: 20px;
-  padding: 10px 20px;
+.main-content a{
   text-decoration: none;
+  color:rgb(140, 138, 138);
+  
+}
+
+.main-content a:active {
+  color: red;
+}
+.active-link{
+  color: red;
+}
+.main-content p{
+  font-size: 18px;
+  padding: 10px 20px;
+
   color:black;
+
+}
+
+.main-content p:hover {
+ 
+  font-weight: bold;
+  border-bottom: 5px solid red;
+  cursor: pointer;
 }
 
 

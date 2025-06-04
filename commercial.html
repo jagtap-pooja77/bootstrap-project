@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <link rel="stylesheet" href="style.css">
+    <style>
+        #radio{
+              grid-template-columns: repeat(6, 1fr);
+        }
+    </style>
 
 </head>
 
@@ -18,7 +23,7 @@
         <div class="d-flex justify-content-between align-items-center w-100 px-3">
          
             <a class="navbar-brand d-flex align-items-center" href="#">
-                <p id="persentSign"
+                <p id="sign"
                     class="d-flex justify-content-center align-items-center mb-0 text-white bg-danger rounded-circle">
                     %
                 </p>
@@ -42,12 +47,22 @@
        
         <h2 class="h2">World's Largest NoBrokerage Property Site</h2>
 
+           <!-- interiors -->
+      <div
+        class="interiors d-flex justify-content-center align-items-center pt-2 px-2 mt-3">
+        <p>
+          <i class="fa-solid fa-file-lines"></i>   <i class="fa-solid fa-pen"></i>Rental Agreement | &nbsp;&nbsp;<i
+            class="fa-solid fa-truck"></i>
+         Next Day Delivery
+        </p>
+      </div>
+
          <section>
             <div class="main-content p-2 pb-0 mt-4">
                 <div class="pl-5 d-flex justify-content-between gap-4 px-4">
-                    <a href="index.html">Buy</a>
-                    <a href="rent.html">Rent</a>
-                    <a href="commercial.html">Commercial</a>
+                   <p> <a href="index.html">Buy</a></p>
+                    <p><a href="rent.html">Rent</a></p>
+                   <p> <a href="commercial.html">Commercial</a></p>
                 </div>
             </div>
         </section>
@@ -70,7 +85,7 @@
                 </div>
 
 
-                <div class="radio-button">
+                <div class="radio-button" id="radio">
                     <div class="redios">
                         <input type="radio" name="address" id="fullHouse" />
                         <label for="fullHouse"> Rent</label>
