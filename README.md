@@ -52,13 +52,15 @@ nobroker-homepage/
 1. Clone this repository:
 
    ```bash
-   git clone 
+   git clone https://github.com/jagtap-pooja77/bootstrap-project
+
 
 2.  Navigate to the folder:
 
     cd nobroker-homepage
 
-4. Open index.html in any browser:
+
+3. Open index.html in any browser:
 
    start index.html   # (Windows)
    
